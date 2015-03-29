@@ -40,24 +40,33 @@ div.l-category-descript {
     margin-top: 15px;
     margin-bottom: 15px;
     overflow: hidden;
+    font-size: 0.9em;
 
         
-        p {
-            width: 48%;
-            float: left;
-            margin-right: 2%;
+       /* p {
+            -webkit-columns:2;
+                -webkit-columns-width:45%;
         }
-        p:last-child {
-            margin-right: 0;
-        }
+        */
     
 
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1281px) {
  
-   div.l-category-image, div.l-category-descript  {
+   /*div.l-category-image, div.l-category-descript  {
     width: 100%;   
+   }*/
+   div.l-category-image {
+    width: 30%;
    }
-    
+
+    div.l-category-descript {
+        width: 64%;
+        p{
+            font-size: 0.89em;
+            margin: 0;
+
+        }
+    }
 }
