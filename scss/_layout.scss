@@ -1,0 +1,63 @@
+* {
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box;
+}
+div.wrapper {
+overflow: hidden;
+}
+.row {
+overflow: hidden;
+}
+aside {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+section {
+    width: 73%;
+    float: left;
+    margin-right: 2%;
+}
+
+div.l-category-image {
+    width: 48%;
+    float: left;
+    margin: 20px 2% 20px 0;
+    text-align: center;
+    
+}
+div.l-category-image, div.l-category-descript {
+    max-height: 230px;
+
+}
+
+div.l-category-descript {
+    width: 48%;
+    float:left;
+    border-left: 10px solid #dddddd;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+        
+        p {
+            width: 48%;
+            float: left;
+            margin-right: 2%;
+        }
+        p:last-child {
+            margin-right: 0;
+        }
+    
+
+}
+
+@media (max-width: 1279px) {
+ 
+   div.l-category-image, div.l-category-descript  {
+    width: 100%;   
+   }
+    
+}
